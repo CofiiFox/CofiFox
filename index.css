@@ -33,6 +33,15 @@ header {
     border-style: solid;
 }
 
+.socialBar {
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    height: 200px;
+}
+
+.showen {opacity: 100%;} .hidden {opacity: 0%;}
+
 .main {
     margin-left: auto;
     margin-right: auto;
@@ -80,6 +89,19 @@ main {
     border-width: 10px;
     border-color: var(--Night4);
     border-style: solid;
+}
+
+.section {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.centerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 /* NavBar
 .nav {
