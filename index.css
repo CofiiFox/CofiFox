@@ -1,0 +1,102 @@
+:root {
+    /* Space */
+    --Space1: #635985;
+    --Space2: #443C68;
+    --Space3: #393053;
+    --Space4: #18122B;
+    /* Night */
+    --Night1: #070F2B;
+    --Night2: #1B1A55;
+    --Night3: #535C91;
+    --Night4: #9290C3;
+    /* Nord */
+    --PN1: #2e3440;
+    --PN2: #3b4252;
+    --PN3: #434c5e;
+    --PN4: #4c566a;
+    --SS1: #d8dee9;
+    --SS2: #e5e9f0;
+    --SS3: #eceff4;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {background-color: var(--Night1);}
+h1 {text-align: center; color: white; font-size: 60px;}
+header {
+    border-width: 10px;
+    border-color: var(--Night4);
+    border-style: solid;
+}
+
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 50%;
+    font-family: monospace;
+}
+.heroWrap {
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.212));
+    height: 250px;
+}
+.hero {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.486)), url(Images/CherryWindows97.GIF);
+    color: white;
+    height: 250px;
+}
+.heroImg {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+}
+.centerh1 {
+    width: max-content;
+    height: max-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* The main styles */
+main {
+    color: white;
+    margin-top: 20px;
+    background-color: var(--Space4);
+    border-width: 10px;
+    border-color: var(--Night4);
+    border-style: solid;
+}
+/* NavBar
+.nav {
+    height: 40px;
+}
+.navScroll {
+    height: 60px;
+    display: flex;
+}
+
+.brandlogo {
+    width: 30px;
+    height: 30px;
+    transition: all 2s;
+}
+.brandLogoScroll {
+    width: 50px;
+    height: 50px;
+}
+NavBar */
