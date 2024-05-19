@@ -103,6 +103,9 @@ main {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.socials {
+    text-align: center;
+}
 /* NavBar
 .nav {
     height: 40px;
